@@ -72,6 +72,9 @@ $( document ).ready(function() {
 		},{
 			"img": "http://i.imgur.com/IsiRvui.jpg",
 			"alt": "It's my day"
+		},{
+			"img": "https://pbs.twimg.com/media/B23mrQlCcAEmXbd.jpg",
+			"alt": "GISDay is over"
 		}
 	].forEach(function(obj){
 		$('.carousel-inner').append(
