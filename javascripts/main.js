@@ -75,6 +75,9 @@ $( document ).ready(function() {
 			"img": "http://i.imgur.com/0sL4Qk1.jpg",
 			"alt": "Standards compliant"
 		},{
+			"img": "http://cdn.meme.am/instances/500x/56388277.jpg",
+			"alt": "All hail to the hipnoelephant"
+		},{
 			"img": "http://i.imgur.com/IsiRvui.jpg",
 			"alt": "It's my day"
 		},{
