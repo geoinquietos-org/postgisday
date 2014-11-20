@@ -83,6 +83,9 @@ $( document ).ready(function() {
 		},{
 			"img": "https://pbs.twimg.com/media/B23_eD-IYAA2gTj.jpg:large",
 			"alt": "We use PostGIS!"
+		},{
+			"img": "https://pbs.twimg.com/media/B24EWcyIMAAN52t.jpg:large",
+			"alt": "Batman"
 		}
 	]).forEach(function(obj){
 		$('.carousel-inner').append(
