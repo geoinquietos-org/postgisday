@@ -90,6 +90,9 @@ $( document ).ready(function() {
 			"img": "https://pbs.twimg.com/media/B24EWcyIMAAN52t.jpg:large",
 			"alt": "Batman"
 		},{
+			"img": "http://cdn.meme.am/instances/500x/56388376.jpg",
+			"alt": "Welcome to the party!"
+		},{
 			"img": "https://pbs.twimg.com/media/B24WRfCIgAA-US7.jpg:large",
 			"alt": "I'm an elephant"
 		}
