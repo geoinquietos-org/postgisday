@@ -78,14 +78,23 @@ $( document ).ready(function() {
 			"img": "http://i.imgur.com/IsiRvui.jpg",
 			"alt": "It's my day"
 		},{
+			"img": "https://pbs.twimg.com/media/B246tykCQAAoDxI.jpg",
+			"alt": "Happy Birthday!"
+		},{
 			"img": "https://pbs.twimg.com/media/B23mrQlCcAEmXbd.jpg",
 			"alt": "GISDay is over"
+		},{
+			"img": "http://cdn.meme.am/instances/500x/56388462.jpg",
+			"alt": "Intruder!"
 		},{
 			"img": "https://pbs.twimg.com/media/B23_eD-IYAA2gTj.jpg:large",
 			"alt": "We use PostGIS!"
 		},{
 			"img": "https://pbs.twimg.com/media/B24EWcyIMAAN52t.jpg:large",
 			"alt": "Batman"
+		},{
+			"img": "http://cdn.meme.am/instances/500x/56388376.jpg",
+			"alt": "Welcome to the party!"
 		},{
 			"img": "https://pbs.twimg.com/media/B24WRfCIgAA-US7.jpg:large",
 			"alt": "I'm an elephant"
