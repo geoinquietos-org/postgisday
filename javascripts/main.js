@@ -54,12 +54,17 @@ function setNewOnClick(originalOnClick,hash){
 }
 }
 
+function shuffle(o){ //v1.0
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+
 $( document ).ready(function() {
 	fixNavbarIssue();
 
 
 	/* add more carousel meme images to this array */
-	var images = [
+	shuffle([
 		{
 			"img":"http://i.imgur.com/6Bjx592.jpg",
 			"alt":" Tomorrow is %23PostGISDay"
@@ -76,7 +81,7 @@ $( document ).ready(function() {
 			"img": "https://pbs.twimg.com/media/B23mrQlCcAEmXbd.jpg",
 			"alt": "GISDay is over"
 		}
-	].forEach(function(obj){
+	]).forEach(function(obj){
 		$('.carousel-inner').append(
 				'<div class="item"><img src="' + obj.img + '" alt="' + obj.alt + '"></div>');
 	})
