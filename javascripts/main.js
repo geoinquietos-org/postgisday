@@ -86,6 +86,9 @@ $( document ).ready(function() {
 		},{
 			"img": "https://pbs.twimg.com/media/B24EWcyIMAAN52t.jpg:large",
 			"alt": "Batman"
+		},{
+			"img": "https://pbs.twimg.com/media/B24WRfCIgAA-US7.jpg:large",
+			"alt": "I'm an elephant"
 		}
 	]).forEach(function(obj){
 		$('.carousel-inner').append(
