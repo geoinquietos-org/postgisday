@@ -80,9 +80,12 @@ $( document ).ready(function() {
 		},{
 			"img": "https://pbs.twimg.com/media/B23mrQlCcAEmXbd.jpg",
 			"alt": "GISDay is over"
+		},{
+			"img": "https://pbs.twimg.com/media/B23_eD-IYAA2gTj.jpg:large",
+			"alt": "We use PostGIS!"
 		}
 	]).forEach(function(obj){
 		$('.carousel-inner').append(
 				'<div class="item"><img src="' + obj.img + '" alt="' + obj.alt + '"></div>');
-	})
+	});
 });
