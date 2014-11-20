@@ -81,6 +81,9 @@ $( document ).ready(function() {
 			"img": "https://pbs.twimg.com/media/B23mrQlCcAEmXbd.jpg",
 			"alt": "GISDay is over"
 		},{
+			"img": "http://cdn.meme.am/instances/500x/56388462.jpg",
+			"alt": "Intruder!"
+		},{
 			"img": "https://pbs.twimg.com/media/B23_eD-IYAA2gTj.jpg:large",
 			"alt": "We use PostGIS!"
 		},{
