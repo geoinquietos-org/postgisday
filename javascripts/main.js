@@ -98,6 +98,9 @@ $( document ).ready(function() {
 		},{
 			"img": "https://pbs.twimg.com/media/B24WRfCIgAA-US7.jpg:large",
 			"alt": "I'm an elephant"
+		},{
+			"img": "https://pbs.twimg.com/media/CUKC6x6XIAAnP0A.jpg:large",
+			"alt": "time to show up"
 		}
 	]).forEach(function(obj){
 		$('.carousel-inner').append(
