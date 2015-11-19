@@ -101,6 +101,9 @@ $( document ).ready(function() {
 		},{
 			"img": "https://pbs.twimg.com/media/CUKC6x6XIAAnP0A.jpg:large",
 			"alt": "time to show up"
+		},{
+			"img": "https://pbs.twimg.com/media/CUMTGXcWoAApfd1.jpg:small",
+			"alt": "esri"
 		}
 	]).forEach(function(obj){
 		$('.carousel-inner').append(
