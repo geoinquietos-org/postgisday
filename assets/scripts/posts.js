@@ -1,8 +1,8 @@
 ---
 layout: null
-permalink: /assets/js/posts.json
+permalink: /assets/scripts/posts.js
 ---
-[
+var posts = [
 {%for post in site.posts %}
   {
     "date" : "{{ post.date}}",
@@ -13,7 +13,7 @@ permalink: /assets/js/posts.json
     "resource_url": "{{ post.resource_url }}",
     "categories" : "{{ post.categories }}",
     "image" : "{{ post.image }}",
-    "content" : "{{ post.content | escape | strip | strip_newlines}}"
+    "content" : "{{ post.content | strip_html | strip | escape}}"
   }{% unless forloop.last %}, {% endunless %}
 {% endfor %}
 ]

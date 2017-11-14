@@ -21,13 +21,37 @@ Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/)
 Do you know about a neat trick, resource or experience about PostGIS?
 [Share it](/submit/) with us and the world and praise the power of SQL!
 
-## Random resource
+<h2 name="random">Random resource</h2>
 
-** TO DO **
+{% raw %}
+<div id="random_resource">
+  <div v-if="post">
+    <p id="resource-bottom">
+    You can check and share <a :href="post.url" :alt="post.title">this resource</a>, browse  <a href="/resources">our archive</a>    
+    or <a href="#random" v-on:click="post = getRandomPost()">try another</a>.
+    </p>
+    <div v-if="post.image">
+      <div class="post-center">
+          <a :href="post.resource_url">
+              <img :src="post.image" :alt="post.title">
+          </a>
+      </div>
+    </div>
+    <div v-else class="post-center">
+          <p><a :href="post.resource_url">
+              {{post.title}}
+          </a></p>
+    </div>
+  </div>
 
-Render something randomly from `/assets/js/posts.json`
+</div>
+{% endraw %}
 
-Browse all the [resources](/resources/) shared.
+<script src="https://vuejs.org/js/vue.min.js"></script>
+<script src="/assets/scripts/posts.js"></script>
+<script src="/assets/scripts/app.js"></script>
+
+
 
 ## Contribute
 
@@ -53,7 +77,7 @@ hashtag.
     data-link-color="#b5e853"
     data-related="twitterapi,twitter"
     data-aria-polite="assertive"
-    data-chrome="transparent noheaders"
+    data-chrome="transparent noheaders noborders"
     width="650"
     height="850">#PostGISDay Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
