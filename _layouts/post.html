@@ -4,19 +4,45 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h2 class="post-title" itemprop="name headline">
+      {{ page.title | escape }}
+    </h2>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+        {% if page.author or page.author_twitter %}
+          {% assign post_author = page.author | default: page.author_twitter %}
+        {% endif %}
+
         {{ page.date | date: date_format }}
       </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+      {% if post_author %}
+        • <span itemprop="author" 
+            itemscope 
+            itemtype="http://schema.org/Person">
+            <span itemprop="name">
+              {% if page.author_twitter %}
+              <a href="https://twitter.com/{{ page.author_twitter }}">{{ post_author }}</a>
+              {% else %}
+              {{ post_author }}
+              {% endif %}
+            </span>
+          </span>
+      {% endif %}
+      {% if page.categories %}
+      • {{ page.categories}}
+      {% endif %}
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
+
     {{ content }}
+
+    {% if page.resource_url %}
+    <a href="{{page.resource_url}}">Visit the resource</a>
+    {% endif %}
   </div>
 
 </article>
