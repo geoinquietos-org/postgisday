@@ -1,0 +1,20 @@
+{% if page.image %}
+<div class="post-center">
+    <a href="{{ page.resource_url }}">
+        <img src="{{ page.image}}" alt="{{ page.title }}">
+    </a>
+</div>
+{% endif %}
+{{ content }}
+{% if page.resource_url and page.resource_url != '' %}
+{% assign url_begin = page.resource_url | slice: 0, 15 %}
+    {% if url_begin == "https://twitter" %}
+    <div class="post-center">
+        <blockquote class="twitter-tweet" data-lang="es" data-theme="dark" data-align="center" data-link-color="#b5e853">
+            <p lang="es" dir="ltr"><a href="{{ page.resource_url }}">{{page.title}}</a></p></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    {% else %}
+    <a href="{{ page.resource_url }}">Visit the resource</a>
+    {% endif %}
+{% endif %}

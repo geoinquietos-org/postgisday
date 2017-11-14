@@ -7,10 +7,10 @@ description: >-
                      It's the third Thursday of November, and as every year, 
                      also a day to celebrate our favourite spatial database
 
-author:              Jorge Sanz
-email:               jsanz@carto.com
-github_username:     jsanz
-twitter_username:    xurxosanz
+author:
+  name:              Jorge Sanz
+  email:             jsanz@carto.com
+
 google_analytics:    UA-56908901-1
 
 plugins:

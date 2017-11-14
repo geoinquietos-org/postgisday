@@ -9,16 +9,9 @@ layout: null
     max-width: 720px;
 }
 
-
-.carousel-inner { text-align: center; }
-.carousel-inner>.item>img{
-  height: 400px;
-  display: inline-block;
-}
-
-.carousel-control.right, .carousel-control.left{
-  background: none;
-  color: red;
+.container blockquote{
+  padding-left: 20px;
+  margin-left: 0;
 }
 
 header h1:before {
