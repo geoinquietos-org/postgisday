@@ -2,7 +2,7 @@
 layout: post
 title: Using PostGIS for isovists calculation
 date: 2017-11-14T16:50:47.411Z
-thumbnail: /assets/images/uploads/carto_billboard.png
+image: /assets/images/uploads/carto_billboard.png
 categories: blog post
 author: Abel Vázquez
 author_twitter: abel_vm
