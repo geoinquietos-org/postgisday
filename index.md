@@ -8,7 +8,7 @@ layout: default
 
 It's the third Thursday of November, and as every year, also a day to
 celebrate our favourite spatial database.
-From the [CARTO blog](http://blog.cartodb.com/happy-postgis-day/):
+From the [CARTO blog](https://carto.com/blog/happy-postgis-day/):
 
 > Like [GIS Day](http://gisday.com/),
 > [PostGIS](http://postgis.net/) day
