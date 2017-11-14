@@ -2,7 +2,7 @@ backend:
   name: github
   repo: geoinquietosvlc/postgisday.rocks
   base_url: https://postgisdayrocks-oauth.herokuapp.com
-  branch: 2017
+  branch: master
 
 media_folder: "assets/images/uploads"
 
