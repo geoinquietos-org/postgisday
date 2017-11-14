@@ -24,6 +24,8 @@ From the [CARTO blog](http://blog.cartodb.com/happy-postgis-day/):
 
 Render something randomly from `/assets/js/posts.json`
 
+Browse all the [resources](/resources/) shared.
+
 ## Twitter
 
 Be part of the global conversation and tweet using the
