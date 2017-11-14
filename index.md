@@ -63,6 +63,8 @@ and developers? Then we encourage you to:
 * Join the PostGIS [users](https://lists.osgeo.org/mailman/listinfo/postgis-users) 
   or [developers](https://lists.osgeo.org/mailman/listinfo/postgis-devel) mailing lists
 * Track the `postgis` tag at [GIS Stack Exchange](https://gis.stackexchange.com/questions/tagged/postgis)
+* Follow official [news announcements](http://postgis.net/news/)
+* More options [here](http://postgis.net/development/)
 
 ## Join the conversation: `#PostGISDay`
 
