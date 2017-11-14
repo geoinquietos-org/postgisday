@@ -36,12 +36,12 @@ hashtag.
     data-widget-id="535054119762149376"
     href="https://twitter.com/hashtag/PostGISDay"
     data-theme="dark"
-    data-link-color="#cc0000"
+    data-link-color="#b5e853"
     data-related="twitterapi,twitter"
     data-aria-polite="assertive"
     data-chrome="noborders transparent noheaders"
     width="650"
-    height="500">#PostGISDay Tweets</a>
+    height="850">#PostGISDay Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 ## Share your experience
