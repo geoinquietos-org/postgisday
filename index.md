@@ -48,12 +48,3 @@ hashtag.
 Do you know about a neat trick, resource or experience about PostGIS?
 [Share it](/submit/) with the world and praise the power of SQL!
 
-## Colophon
-
-postgisday.rocks is not officially endorsed
-by the [PostGIS](postgis.net) project. It's just an enthusiastic
-effort by the [geoinquietos](http://geoinquietos.org) community
-to a [FOSS4G](http://foss4g.org/) project we love.
-
-Feedback about this site is happily welcomed at 
-[our GitHub repository](https://github.com/geoinquietosvlc/postgisday.rocks).

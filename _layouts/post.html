@@ -10,9 +10,12 @@ layout: default
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% if page.author_twitter %}
+        {% capture my_twitter %}@{{page.author_twitter}}{% endcapture %}
+        {% endif %}
 
-        {% if page.author or page.author_twitter %}
-          {% assign post_author = page.author | default: page.author_twitter %}
+        {% if page.author or my_twitter %}
+          {% assign post_author = page.author | default: my_twitter %}
         {% endif %}
 
         {{ page.date | date: date_format }}
@@ -22,7 +25,7 @@ layout: default
             itemscope 
             itemtype="http://schema.org/Person">
             <span itemprop="name">
-              {% if page.author_twitter %}
+              {% if my_twitter %}
               <a href="https://twitter.com/{{ page.author_twitter }}">{{ post_author }}</a>
               {% else %}
               {{ post_author }}
@@ -38,10 +41,25 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
 
+    {% if page.image %}
+    <div class="post-center">
+      <img src="{{ page.image}}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
     {{ content }}
 
-    {% if page.resource_url %}
-    <a href="{{page.resource_url}}">Visit the resource</a>
+    {% if page.resource_url and page.resource_url != '' %}
+    {% assign url_begin = page.resource_url | slice: 0, 15 %}
+      {% if url_begin == "https://twitter" %}
+        <div class="post-center">
+            <blockquote class="twitter-tweet" data-lang="es" data-theme="dark" data-align="center" data-link-color="#b5e853">
+              <p lang="es" dir="ltr"><a href="{{ page.resource_url }}">{{page.title}}</a></p></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      {% else %}
+        <a href="{{ page.resource_url }}">Visit the resource</a>
+      {% endif %}
     {% endif %}
   </div>
 
