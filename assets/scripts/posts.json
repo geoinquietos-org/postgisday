@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /assets/js/posts.json
+---
+[
+{%for post in site.posts %}
+  {
+    "date" : "{{ post.date}}",
+    "title": "{{ post.title}}",
+    "url"  : "{{site.url}}/{{ post.url}}"
+  }{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+]

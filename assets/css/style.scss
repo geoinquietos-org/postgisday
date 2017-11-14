@@ -1,0 +1,21 @@
+---
+---
+
+@import 'jekyll-theme-hacker';
+
+
+.container{
+    max-width: 720px;
+}
+
+
+.carousel-inner { text-align: center; }
+.carousel-inner>.item>img{
+  height: 400px;
+  display: inline-block;
+}
+
+.carousel-control.right, .carousel-control.left{
+  background: none;
+  color: red;
+}
