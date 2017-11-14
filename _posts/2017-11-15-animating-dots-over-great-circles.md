@@ -9,4 +9,4 @@ author_twitter: jsanz
 resource_url: 'https://gist.github.com/jsanz/8aeb48a274e3b787ca57'
 ---
 
-Related with [this other resource](/{% post_url 2017-11-15-flying-around-the-world-with-cartodb %}), this query shows how to interpolate points along great circles joining Dubai with other cities.
+Related with [this other resource]({site.url}{% post_url 2017-11-15-flying-around-the-world-with-cartodb %}), this query shows how to interpolate points along great circles joining Dubai with other cities.
