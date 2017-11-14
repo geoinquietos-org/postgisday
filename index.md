@@ -32,7 +32,7 @@ Do you know about a neat trick, resource or experience about PostGIS?
     </p>
     <div v-if="post.image">
       <div class="post-center">
-          <a :href="post.resource_url">
+          <a :href="post.url">
               <img :src="post.image" :alt="post.title">
           </a>
       </div>
