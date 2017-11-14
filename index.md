@@ -26,7 +26,7 @@ Render something randomly from `/assets/js/posts.json`
 
 Browse all the [resources](/resources/) shared.
 
-## Twitter
+## `#PostGISDay`
 
 Be part of the global conversation and tweet using the
 [`#PostGISDay`]("https://twitter.com/search?q=%23PostGISDay)
@@ -39,6 +39,7 @@ hashtag.
     data-link-color="#cc0000"
     data-related="twitterapi,twitter"
     data-aria-polite="assertive"
+    data-chrome="noborders transparent noheaders"
     width="650"
     height="500">#PostGISDay Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
