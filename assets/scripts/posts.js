@@ -13,7 +13,7 @@ var posts = [
     "resource_url": "{{ post.resource_url }}",
     "categories" : "{{ post.categories }}",
     "image" : "{{ post.image }}",
-    "content" : "{{ post.content | strip_html | strip | escape}}"
+    "content" : "{{ post.content | strip_html | strip | strip_newlines | escape}}"
   }{% unless forloop.last %}, {% endunless %}
 {% endfor %}
 ]
