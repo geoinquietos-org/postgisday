@@ -27,8 +27,9 @@ Do you know about a neat trick, resource or experience about PostGIS?
 <div id="random_resource">
   <div v-if="post">
     <p id="resource-bottom">
-    You can check and share <a :href="post.url" :alt="post.title">this resource</a>, browse  <a href="/resources">our archive</a>    
-    or <a href="#random" v-on:click="post = getRandomPost()">try another</a>.
+    You can check and share <a :href="post.url" :alt="post.title">this resource</a>,
+    browse  <a href="/resources">our archive</a>
+    or <a href="#random" v-on:click="setPost()">try another</a>.
     </p>
     <div v-if="post.image">
       <div class="post-center">
@@ -43,6 +44,7 @@ Do you know about a neat trick, resource or experience about PostGIS?
           </a></p>
     </div>
   </div>
+  <div v-else>{{ setPost() }}</div>
 
 </div>
 {% endraw %}
@@ -51,8 +53,6 @@ Do you know about a neat trick, resource or experience about PostGIS?
 <script src="/assets/scripts/posts.js"></script>
 <script src="/assets/scripts/app.js"></script>
 
-
-
 ## Contribute
 
 Are you using PostGIS and maybe finding creative solutions, experimenting with
@@ -60,7 +60,7 @@ not so usual functions or just willing to interact with other PostGIS users
 and developers? Then we encourage you to:
 
 * Write about PostGIS on your blog and join the [PostGIS planet](http://planet.postgis.net)
-* Join the PostGIS [users](https://lists.osgeo.org/mailman/listinfo/postgis-users) 
+* Join the PostGIS [users](https://lists.osgeo.org/mailman/listinfo/postgis-users)
   or [developers](https://lists.osgeo.org/mailman/listinfo/postgis-devel) mailing lists
 * Track the `postgis` tag at [GIS Stack Exchange](https://gis.stackexchange.com/questions/tagged/postgis)
 * Follow official [news announcements](http://postgis.net/news/)
