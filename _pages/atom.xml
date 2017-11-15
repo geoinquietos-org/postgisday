@@ -14,7 +14,7 @@ permalink: /atom.xml
    <email>{{ site.author.email }}</email>
  </author>
  {% for page in site.posts limit: 25  %} <entry>
-   <title>{{ page.title }}</title>
+   <title>{{ page.title | xml_escape }}</title>
    <link href="{{ site.url }}{{ page.url }}"/>
    <updated>{{ page.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ page.id }}</id>
