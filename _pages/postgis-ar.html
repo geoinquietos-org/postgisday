@@ -1,0 +1,21 @@
+---
+title: PostGIS-AR
+layout: default
+permalink: /postgis-ar/
+---
+
+<link rel="stylesheet" href="/assets/other/postgis-ar/style.css">
+<script src="/assets/other/postgis-ar/UnityProgress.js"></script>  
+<script src="/assets/other/postgis-ar/UnityLoader.js"></script>
+<script>
+var gameInstance = UnityLoader.instantiate("gameContainer", "/assets/other/postgis-ar/postgis.json", {onProgress: UnityProgress});
+</script>
+
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 100%; height: 600px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+      <div class="title">postgis</div>
+    </div>
+ </div>
