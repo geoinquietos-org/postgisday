@@ -16,8 +16,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "string", required: false}
       - {label: "Category", name: categories, widget: select, options: ['meme', 'query', 'blog post','learning', 'twitter']}
+      - {label: "Image URL", name: "image", widget: "string", required: false}
+      - {label: "Image Upload", name: "image", widget: "image", required: false}
       - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author twitter", name: "author_twitter", widget: "string", required: false}
       - {label: "resource_url", name: "resource_url", widget: "string", required: false}
