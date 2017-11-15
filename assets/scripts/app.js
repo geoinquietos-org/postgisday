@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    var vm = new Vue({
+    new Vue({
         el: '#random_resource',
         data: {
             posts: posts,
@@ -16,5 +16,4 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         }
     });
-    //vm.post = vm.getRandomPost();
 });
