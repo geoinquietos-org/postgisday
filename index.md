@@ -18,8 +18,7 @@ Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/)
 
 ## Share your experience
 
-Do you know about a neat trick, resource or experience about PostGIS?
-[Share it](/submit/) with us and the world and praise the power of SQL!
+Do you know about a neat trick, resource or experience about PostGIS? Join our awesome group of [contributors](/contributors) and [share it](/submit/) with us and the world. Let's praise the power of SQL!
 
 <h2 name="random">Random resource</h2>
 
@@ -27,7 +26,9 @@ Do you know about a neat trick, resource or experience about PostGIS?
 <div id="random_resource">
   <div v-if="post">
     <p id="resource-bottom">
-    You can check and share <a :href="post.url" :alt="post.title">this resource</a>,
+    You can check and share <a :href="post.url" :alt="post.title">this resource</a> from 
+    <a v-if="post.author_twitter" :href="'https://twitter.com/' + post.author_twitter">{{ post.author }}</a>
+    <span v-else>{{ post.author }}</span>,
     browse  <a href="/resources">our archive</a>
     or <a href="#random" v-on:click="setPost()">try another</a>.
     </p>

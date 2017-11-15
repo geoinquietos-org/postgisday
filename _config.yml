@@ -9,7 +9,7 @@ description: >-
 
 author:
   name:              Jorge Sanz
-  email:             jsanz@carto.com
+  email:             xurxosanz@gmail.com
 
 google_analytics:    UA-56908901-1
 
@@ -23,7 +23,6 @@ highlighter:        rouge
 markdown:           kramdown
 theme:              jekyll-theme-hacker
 lsi:                false
-
 
 # SEO tag
 twitter:
@@ -49,3 +48,10 @@ exclude:
                     - Gemfile.lock
 
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Trolpical
+      author_twitter: trolpical

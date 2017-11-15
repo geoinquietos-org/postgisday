@@ -1,0 +1,38 @@
+---
+layout: default
+title: Authors
+permalink: /contributors/
+---
+<h2>Contributors</h2>
+
+<p><a href="/submit">Share</a> your resources with us and join this list.</p>
+
+
+{% assign all_authors = site.posts | map: "author" | compact | uniq | sort %}
+<ul id="contributor_list">
+{% for author in all_authors %}
+    {% assign author_name = author %}
+    {% for author_dict in site.data.authors %}
+        {% if author_name == author_dict[0] %}
+            {% assign author_data = author_dict[1] %}
+            {% capture my_site %}
+            {% if author_data.twitter %}https://twitter.com/{{ author_data.twitter }}
+            {% elsif author_data.github %}https://github.com/{{ author_data.github }}
+            {% elsif author_data.web %}{{ author_data.web }}{% endif %}
+            {% endcapture %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    <li>
+        {% if my_site %}
+        <a href="{{my_site}}">{{ author_name }}</a>
+        {% else %}
+        {{ author_name }}
+        {% endif %}
+        <ul>{% for post in site.posts %}{% if author_name == post.author %}
+                <li class="resource"><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></li>
+        {% endif %}{% endfor %}</ul>
+        {% assign my_site = false %}
+    </li>
+{% endfor %}
+</ul>

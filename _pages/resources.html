@@ -3,11 +3,10 @@ layout: default
 title: List of resources
 permalink: /resources/
 ---
-
-
+<h2>Archive</h2>
 <section id="archive">
 <h3>So far this year</h3>
-{%for post in site.posts %}{% unless post.next %}
+{%for post in site.posts %}{% capture initials %}{% assign initials = "" %}{% assign words = post.author | split: " " %}{% for word in words %}{{  word | slice: 0  }}{% endfor %}{% endcapture %}{% unless post.next %}
     <ul class="this">
     {% else %}{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}</ul>
@@ -15,9 +14,8 @@ permalink: /resources/
         <ul class="past">{% endif %}{% endunless %}
     <li>[{{ post.categories }}] · 
         <a href="{{ post.url }}">
-        {{ post.title }}
-        </a>
-        · <time>{{ post.date | date:"%y/%m/%d" }}</time>
+        {{ post.title }}</a> · {{ initials | strip }} · 
+        <time>{{ post.date | date:"%y/%m/%d" }}</time>
     </li>{% endfor %}
 </ul>
 </section>

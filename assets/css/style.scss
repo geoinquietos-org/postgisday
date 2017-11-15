@@ -7,26 +7,39 @@ layout: null
 
 .container{
     max-width: 720px;
-}
-
-.container blockquote{
-  padding-left: 20px;
-  margin-left: 0;
+    
+    blockquote{
+      padding-left: 20px;
+      margin-left: 0;
+    }
 }
 
 header {
   background: none;
-}
-header h1:before {
-  content: "";
-  font-size: 24px;
-}
-header h1 {
-  margin: 0;
-}
-header .container h1 a {
-  color: #b5e853;
-  text-decoration: none;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+
+  h1:before {
+    content: "";
+    font-size: 24px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .container  a {
+    color: #b5e853;
+    text-decoration: none;
+  }
+
+  .container p{
+    margin: 0;
+  }
 }
 
 .post h2 {
@@ -50,4 +63,14 @@ footer .container a {
   max-height: 300px;
   max-width: 50%;
   margin: 15px auto;
+}
+
+#contributor_list {
+  a {
+    text-decoration: none;
+  }
+  .resource a {
+    font-size: smaller;
+    color: #b5e853;
+  }
 }

@@ -5,6 +5,7 @@ categories:
   - meme
 image: /assets/images/uploads/postgis-ar.jpg
 author: Mayte Toscano
+author_twitter: MayteToscano1
 ---
 
 Install [this application](https://github.com/geoinquietosvlc/postgisday.rocks/releases/download/postgis-ar/PostGIS.apk) (provided as binary `apk` file) in your Android phone and point your camera to any PostGIS logo to see our Earth in 3D and more. What a cool way to celebrate `#PostGISDay`!!
