@@ -22,7 +22,7 @@ collections:
       - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author twitter", name: "author_twitter", widget: "string", required: false}
       - {label: "resource_url", name: "resource_url", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Page" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored
