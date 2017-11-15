@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostGIS 2.3.5 and 2.4.2 Released
+title: PostGIS 2.3.5 & 2.4.2 Released
 date: 2017-11-15T19:11:02.962Z
 categories: twitter
 author: Paul Ramsey
