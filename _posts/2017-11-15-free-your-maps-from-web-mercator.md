@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Free your maps from Web Mercator!
-date: 2017-11-15/2017 20:37
+date: 2017-11-15T20:37
 categories: blog post
 image: >-
   https://carto.com/blog/img/posts/2015/2015-10-28-free-your-maps-web-mercator/header.3623388a.png
