@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Submit your resources
+date: 2017-11-14
 permalink: /submit/
 ---
 
