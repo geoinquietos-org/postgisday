@@ -3,7 +3,7 @@ layout: post
 title: Flying around the world with CartoDB
 date: 2017-11-14T23:31:07.196Z
 image: /assets/images/uploads/flying.png
-categories: blog post
+categories: blogpost
 author: Paul Ramsey
 author_twitter: pwramsey
 resource_url: 'https://carto.com/blog/jets-and-datelines/'

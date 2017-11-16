@@ -2,7 +2,7 @@
 layout: post
 title: Bulk nearest neighbor using lateral joins
 date: 2017-11-14T17:25:27.897Z
-categories: blog post
+categories: blogpost
 author: Paul Ramsey
 author_twitter: 'pwramsey'
 resource_url: 'https://carto.com/blog/lateral-joins/'
