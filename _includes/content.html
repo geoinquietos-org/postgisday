@@ -1,9 +1,5 @@
 {% capture my_content %}
-{% if page.image %}<div class="post-center">
-    <a href="{{ page.resource_url }}">
-        <img src="{{ page.image}}" alt="{{ page.title }}">
-    </a>
-</div>{% endif %}
+
 
 {% if page.resource_url and page.resource_url != '' %}{% assign url_begin = page.resource_url | slice: 0, 15 %}
 {% if url_begin == "https://twitter" %}
@@ -13,6 +9,13 @@
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 {% else %}
+
+{% if page.image %}<div class="post-center">
+    <a href="{{ page.resource_url }}">
+        <img src="{{ page.image}}" alt="{{ page.title }}">
+    </a>
+</div>{% endif %}
+
 {{ page.content }}
 <a href="{{ page.resource_url }}">Visit the resource</a>{% endif %}{% endif %}
 {% endcapture %}
