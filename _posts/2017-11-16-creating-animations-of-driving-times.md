@@ -2,7 +2,7 @@
 layout: post
 title: Creating animations of driving times
 date: 2017-11-15T23:50:24.939Z
-categories: blog post
+categories: blogpost
 image: /assets/images/uploads/animation.gif
 author: Isaac Besora
 author_twitter: ibesora
