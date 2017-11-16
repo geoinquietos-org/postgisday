@@ -1,7 +1,10 @@
 {% capture my_content %}
 
 
-{% if page.resource_url and page.resource_url != '' %}{% assign url_begin = page.resource_url | slice: 0, 15 %}
+{% if page.resource_url and page.resource_url != '' %}
+    {% assign url_begin = page.resource_url | slice: 0, 15 %}
+{% endif %}
+
 {% if url_begin == "https://twitter" %}
     <div class="post-center">
         <blockquote class="twitter-tweet" data-lang="es" data-theme="dark" data-align="center" data-link-color="#b5e853">
@@ -10,13 +13,19 @@
     </div>
 {% else %}
 
-{% if page.image %}<div class="post-center">
-    <a href="{{ page.resource_url }}">
-        <img src="{{ page.image}}" alt="{{ page.title }}">
-    </a>
-</div>{% endif %}
+    {% if page.image %}
+        <div class="post-center">
+            <a href="{{ page.resource_url }}">
+                <img src="{{ page.image}}" alt="{{ page.title }}">
+            </a>
+        </div>
+    {% endif %}
 
-{{ page.content }}
-<a href="{{ page.resource_url }}">Visit the resource</a>{% endif %}{% endif %}
+    {{ page.content }}
+    
+    {% if page.resource_url and page.resource_url != '' %}
+        <a href="{{ page.resource_url }}">Visit the resource</a>
+    {% endif %}
+{% endif %}
 {% endcapture %}
 {%if include.xml %}{{ my_content | xml_escape | strip }}{% else %}{{ my_content }}{% endif %}
