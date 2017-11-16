@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Authors
+title: Contributors
 permalink: /contributors/
 ---
 <h2>Contributors</h2>
 
 <p><a href="/submit">Share</a> your resources with us and join this list.</p>
-
 
 {% assign all_authors = site.posts | map: "author" | compact | uniq | sort %}
 <ul id="contributor_list">
