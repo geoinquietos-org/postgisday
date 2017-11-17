@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a spatial database?
+title: I'm not saying it is PostGIS
 date: 2017-11-16T12:45:06.987Z
 categories: meme
 image: 'https://pbs.twimg.com/media/DOv7PbpW4AESaUd.jpg:large'
