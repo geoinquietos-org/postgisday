@@ -1,4 +1,6 @@
-postgisday.rocks
-=====================
+postgisday.geoinquietos.org
+==============================
 
-An static landing page to celebrate PostGIS day
+An website to celebrate PostGIS day.
+
+More details at [humans.txt](http://postgisday.geoinquietos.org/humans.txt).
