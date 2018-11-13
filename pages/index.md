@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 <div style="float:right;margin-left:15px;">
@@ -73,14 +74,4 @@ Be part of the global conversation and tweet using the
 [`#PostGISDay`]("https://twitter.com/search?q=%23PostGISDay)
 hashtag.
 
-<a class="twitter-timeline"
-    data-widget-id="535054119762149376"
-    href="https://twitter.com/hashtag/PostGISDay"
-    data-theme="dark"
-    data-link-color="#b5e853"
-    data-related="twitterapi,twitter"
-    data-aria-polite="assertive"
-    data-chrome="transparent noheaders noborders"
-    width="650"
-    height="850">#PostGISDay Tweets</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/xurxosanz/timelines/1062318009719668737?ref_src=twsrc%5Etfw">PostGIS Day 2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
