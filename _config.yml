@@ -1,28 +1,28 @@
-title:               PostGIS Rocks!
-baseurl:             "" # the subpath of your site, e.g. /blog
-url:                 "http://postgisday.geoinquietos.org" # the base hostname & protocol for your site, e.g. http://example.com
+title: PostGIS Rocks!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://postgisday.geoinquietos.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom variables
 description: >-
-                     It's the third Thursday of November, and as every year, 
-                     also a day to celebrate our favourite spatial database
+  It's the third Thursday of November, and as every year, 
+  also a day to celebrate our favourite spatial database
 
 author:
-  name:              Jorge Sanz
-  email:             xurxosanz@gmail.com
+  name: Jorge Sanz
+  email: xurxosanz@gmail.com
 
-google_analytics:    UA-56908901-1
+repository: geoinquietosvlc/postgisday
+google_analytics: UA-56908901-1
 
 plugins:
   - jekyll-gist
   - jekyll-seo-tag
 
-
 # Build settings
-highlighter:        rouge
-markdown:           kramdown
-theme:              jekyll-theme-hacker
-lsi:                false
+highlighter: rouge
+markdown: kramdown
+theme: jekyll-theme-hacker
+lsi: false
 
 # SEO tag
 twitter:
@@ -37,16 +37,15 @@ social:
     - https://keybase.io/jsanz
 
 include:
-                    - "_pages"
+  - "_pages"
 
-exclude: 
-                    - LICENSE
-                    - CNAME
-                    - README.md
-                    - .gitignore
-                    - Gemfile
-                    - Gemfile.lock
-
+exclude:
+  - LICENSE
+  - CNAME
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
 
 defaults:
   - scope:
