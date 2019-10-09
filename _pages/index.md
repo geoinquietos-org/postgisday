@@ -71,7 +71,7 @@ and developers? Then we encourage you to:
 ## Join the conversation: `#PostGISDay`
 
 Be part of the global conversation and tweet using the
-[`#PostGISDay`]("https://twitter.com/search?q=%23PostGISDay)
+[`#PostGISDay`](https://twitter.com/search?q=%23PostGISDay&f=live)
 hashtag.
 
-<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/xurxosanz/timelines/1062318009719668737?ref_src=twsrc%5Etfw">PostGIS Day 2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<a class="twitter-timeline" data-theme="dark" data-link-color="#b5e853" href="https://twitter.com/xurxosanz/timelines/1181847283136159744?ref_src=twsrc%5Etfw">PostGIS Day 2019</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
