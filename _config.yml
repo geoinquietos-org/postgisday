@@ -1,6 +1,6 @@
 title: PostGIS Rocks!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://postgisday.geoinquietos.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://postgisday.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom variables
 description: >-
