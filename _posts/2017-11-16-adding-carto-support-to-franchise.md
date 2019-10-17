@@ -4,7 +4,7 @@ title: Adding CARTO support to Franchise
 date: 2017-11-16T14:11:41.918Z
 categories: blogpost
 image: >-
-  https://carto.com/blog/img/posts/2017/2017-11-16-postgis-day/postgis-day-carto-franchise.23fce815.png
+  https://carto.com/blog/img/posts/2017/2017-11-16-postgis-day/postgis-day-carto-franchise.png
 author: Alberto Romeu
 author_twitter: alrocar
 resource_url: 'https://carto.com/blog/inside/postgis-day/'
