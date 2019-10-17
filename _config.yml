@@ -11,7 +11,7 @@ author:
   name: Jorge Sanz
   email: xurxosanz@gmail.com
 
-repository: geoinquietosvlc/postgisday
+repository: geoinquietos-org/postgisday
 google_analytics: UA-56908901-1
 
 plugins:
@@ -46,6 +46,8 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - Makefile
+  - .vscode
 
 defaults:
   - scope:

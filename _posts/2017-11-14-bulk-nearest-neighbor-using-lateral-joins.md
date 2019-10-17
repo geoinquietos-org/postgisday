@@ -6,6 +6,6 @@ categories: blogpost
 author: Paul Ramsey
 author_twitter: 'pwramsey'
 resource_url: 'https://carto.com/blog/lateral-joins/'
-image: 'https://carto.com/blog/img/posts/2016/2016-01-22-lateral-joins/multi-nearest.04a2c217.png'
+image: 'https://carto.com/blog/img/posts/2016/2016-01-22-lateral-joins/multi-nearest.png'
 ---
 How to use Postgres `LATERAL` keyword to allow to find the nearest geometry from one dataset comparing it to another. You can compare `LATERAL` to the SQL counterpart of other languages `for` loop.
