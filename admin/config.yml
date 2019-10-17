@@ -20,7 +20,8 @@ collections:
           label: "Category",
           name: categories,
           widget: select,
-          options: ["meme", "query", "blogpost", "learning", "twitter"],
+          options:
+            ["meme", "query", "blogpost", "learning", "twitter", "event"],
         }
       - { label: "Image URL", name: "image", widget: "string", required: false }
       - {
