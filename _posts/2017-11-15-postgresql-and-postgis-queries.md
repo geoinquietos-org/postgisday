@@ -3,6 +3,7 @@ layout: post
 title: PostgreSQL and PostGIS queries
 date: 2017-11-15T21:53:25.956Z
 categories: query
+image: 'https://i.imgur.com/hCOqoIz.png'
 author: Ramiro Aznar
 author_twitter: ramiroaznar
 resource_url: >-
