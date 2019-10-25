@@ -27,7 +27,7 @@ Do you know about a neat trick, resource or experience about PostGIS? Join our a
 <div id="random_resource">
   <div v-if="post">
     <p id="resource-bottom">
-    You can check and share <a :href="post.url" :alt="post.title">this resource</a> from 
+    You can check and share <a :href="post.url" :alt="post.title">"{{ post.title }}"</a> from 
     <a v-if="post.author_twitter" :href="'https://twitter.com/' + post.author_twitter">{{ post.author }}</a>
     <span v-else>{{ post.author }}</span>,
     browse  <a href="/resources">our archive</a>
