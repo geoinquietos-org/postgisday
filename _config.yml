@@ -4,8 +4,8 @@ url: "https://postgisday.rocks" # the base hostname & protocol for your site, e.
 
 # Custom variables
 description: >-
-  It's Thursday, and the third week of November; as every year, 
-  also a day to celebrate our favourite spatial database
+  Every year on the Thursday of the third week of November, 
+  we celebrate our favourite spatial database
 
 author:
   name: Jorge Sanz
