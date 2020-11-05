@@ -21,13 +21,16 @@ Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/)
 
 Do you know about a neat trick, resource or experience about PostGIS? Join our awesome group of [contributors](/contributors) and [share it](/submit/) with us and the world. Let's praise the power of SQL!
 
+
+<!-- leaving this aside 
+
 <h2 name="random">Random resource</h2>
 
 {% raw %}
 <div id="random_resource">
   <div v-if="post">
     <p id="resource-bottom">
-    You can check and share <a :href="post.url" :alt="post.title">"{{ post.title }}"</a> from 
+    You can check and share <a :href="post.url" :alt="post.title">"{{ post['title'] }}"</a> from 
     <a v-if="post.author_twitter" :href="'https://twitter.com/' + post.author_twitter">{{ post.author }}</a>
     <span v-else>{{ post.author }}</span>,
     browse  <a href="/resources">our archive</a>
@@ -51,9 +54,12 @@ Do you know about a neat trick, resource or experience about PostGIS? Join our a
 </div>
 {% endraw %}
 
-<script src="https://vuejs.org/js/vue.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
 <script src="/assets/scripts/posts.js"></script>
-<script src="/assets/scripts/app.js"></script>
+<script src="/assets/scripts/app.js"></script>c
+-->
+
 
 ## Contribute
 
@@ -74,4 +80,4 @@ Be part of the global conversation and tweet using the
 [`#PostGISDay`](https://twitter.com/search?q=%23PostGISDay&f=live)
 hashtag.
 
-<a class="twitter-timeline" data-theme="dark" data-link-color="#b5e853" href="https://twitter.com/xurxosanz/timelines/1181847283136159744?ref_src=twsrc%5Etfw">PostGIS Day 2019</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-theme="dark" data-link-color="#b5e853" href="https://twitter.com/xurxosanz/timelines/1324382493030653957?ref_src=twsrc%5Etfw">PostGIS Day 2020</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

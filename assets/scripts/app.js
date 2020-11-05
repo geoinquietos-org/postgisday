@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function () {
     new Vue({
         el: '#random_resource',
         data: {
@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function(){
             post: null //will be setted later
         },
         methods: {
-            setPost: function(){
+            setPost: function () {
                 // Remove tweets
-                var non_tweets = this.posts.filter(function(post){
+                var non_tweets = this.posts.filter(function (post) {
                     return post.categories !== "twitter";
                 });
                 // Return any randomly
