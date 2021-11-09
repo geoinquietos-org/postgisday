@@ -4,10 +4,30 @@ layout: null
 
 @import '{{ site.theme }}';
 
-#random_resource img{
-  max-height: 300px;
-  max-width: 50%;
-  margin: 15px auto;
+body, code{
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.frontpage_logo img{
+  float: none;
+  display: block;
+  margin: 5px auto;
+}
+
+@media screen and (min-width: 420px) {
+  .frontpage_logo{
+    float:right;
+    margin: 15px;
+  }
+}
+
+#archive {
+  padding: 10px 0;
+  margin: 20px 0;
 }
 
 #contributor_list {

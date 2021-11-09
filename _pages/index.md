@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-<div style="float:right;margin-left:15px;">
+<div class="frontpage_logo">
 <img src="/assets/images/logo.png" alt="PostGIS Logo">
 </div>
 
@@ -13,7 +13,7 @@ permalink: /
 > to everyone and is a wonderful opportunity to let people
 > know about mapping, spatial operations, and discuss with
 > friends the deep impact that maps, digital or otherwise,
-> have had on our global culture and society.</p>
+> have had on our global culture and society.
 
 Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/)
 
@@ -47,14 +47,15 @@ and developers? Then we encourage you to:
 * Follow official [news announcements](http://postgis.net/news/)
 * More options [here](http://postgis.net/development/)
 
-## Join the conversation: `#PostGISDay`
+## Join the conversation: <tt>#PostGISDay</tt>
 
 Be part of the global conversation and tweet using the
-[`#PostGISDay`](https://twitter.com/search?q=%23PostGISDay&f=live)
+[<tt>#PostGISDay</tt>](https://twitter.com/search?q=%23PostGISDay&f=live)
 hashtag.
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=PostGISDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #PostGISDay</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## PostGIS on Twitter
+## @PostGIS on Twitter
 
 <a class="twitter-timeline" data-width="450" data-dnt="true" data-theme="dark" href="https://twitter.com/postgis?ref_src=twsrc%5Etfw">Tweets by postgis</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
