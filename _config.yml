@@ -7,6 +7,8 @@ description: >-
   Every year on the Thursday of the third week of November, 
   we celebrate our favourite spatial database
 
+show_downloads: false
+
 author:
   name: Jorge Sanz
   email: xurxosanz@gmail.com
@@ -18,10 +20,14 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
 
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
 # Build settings
 highlighter: rouge
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 lsi: false
 
 # SEO tag

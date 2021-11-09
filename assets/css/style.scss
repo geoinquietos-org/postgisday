@@ -2,62 +2,7 @@
 layout: null
 ---
 
-@import 'jekyll-theme-hacker';
-
-
-.container{
-    max-width: 720px;
-    
-    blockquote{
-      padding-left: 20px;
-      margin-left: 0;
-    }
-}
-
-header {
-  background: none;
-  padding-bottom: 15px;
-  margin-bottom: 25px;
-
-  h1:before {
-    content: "";
-    font-size: 24px;
-  }
-
-  h1 {
-    margin: 0;
-  }
-
-  h2 {
-    margin-bottom: 10px;
-  }
-
-  .container  a {
-    color: #b5e853;
-    text-decoration: none;
-  }
-
-  .container p{
-    margin: 0;
-  }
-}
-
-.post h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #c5c5c5;
-}
-
-.post-center{
-  text-align: center;
-  margin: 15px auto;
-  max-width: 100%;
-}
-
-footer .container a {
-  color: #b5e853;
-  text-decoration: none;
-}
+@import '{{ site.theme }}';
 
 #random_resource img{
   max-height: 300px;
