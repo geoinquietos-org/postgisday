@@ -57,5 +57,17 @@ hashtag.
 
 ## @PostGIS on Twitter
 
-<a class="twitter-timeline" data-width="450" data-dnt="true" data-theme="dark" href="https://twitter.com/postgis?ref_src=twsrc%5Etfw">Tweets by postgis</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="width:100%;max-height:600px;overflow-y: scroll;">
+  <a 
+    class="twitter-timeline"
+    data-width="650"
+    data-dnt="true" 
+    data-theme="dark"
+    data-tweet-limit="10"
+    data-chrome="noheader nofooter noborders transparent"
+    href="https://twitter.com/postgis?ref_src=twsrc%5Etfw"
+    >
+      Tweets by postgis
+  </a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
