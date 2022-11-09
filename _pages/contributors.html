@@ -18,7 +18,7 @@ permalink: /contributors/
     <ul>
       {% for post in site.posts %}{% if author_name == post.author %}
       <li class="resource">
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
       {% endif %}{% endfor %}
     </ul>
