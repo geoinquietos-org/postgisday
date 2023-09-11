@@ -55,10 +55,3 @@ exclude:
   - Dockerfile
   - docker-compose.yml
 
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      author: Trolpical
-      author_twitter: trolpical
