@@ -5,7 +5,11 @@ layout: default
 
   <header class="post-header">
     <h2 class="post-title" itemprop="name headline">
+      {% if page.resource_url and page.resource_url != '' %}
+          <a href="{{ page.resource_url }}">{{ page.title | escape }}</a>
+      {% else %}
       {{ page.title | escape }}
+      {% endif %}
     </h2>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
