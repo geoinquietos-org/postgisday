@@ -11,7 +11,7 @@ show_downloads: false
 
 author:
   name: Jorge Sanz
-  email: xurxosanz@gmail.com
+  email: jorge@jorgesanz.net
 
 repository: geoinquietos-org/postgisday
 google_analytics: UA-56908901-1
@@ -31,17 +31,14 @@ theme: jekyll-theme-midnight
 lsi: false
 
 # SEO tag
-twitter:
-  username: xurxosanz
-
 social:
   name: Jorge Sanz
   links:
-    - https://twitter.com/xurxosanz
+    - https://jorgesanz.net
+    - https://mapstodon.space/@jorgesanz
     - https://www.linkedin.com/in/jsanz
     - https://github.com/jsanz
     - https://keybase.io/jsanz
-    - https://mastodon.social/@xurxosanz
 
 include:
   - "_pages"
@@ -55,6 +52,8 @@ exclude:
   - Gemfile.lock
   - Makefile
   - .vscode
+  - Dockerfile
+  - docker-compose.yml
 
 defaults:
   - scope:

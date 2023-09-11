@@ -15,7 +15,7 @@ permalink: /
 > friends the deep impact that maps, digital or otherwise,
 > have had on our global culture and society.
 
-Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/)
+Source: [CARTO blog](https://carto.com/blog/happy-postgis-day/), 2012-11-15
 
 ## Share your experience
 
@@ -49,25 +49,11 @@ and developers? Then we encourage you to:
 
 ## Join the conversation: <tt>#PostGISDay</tt>
 
-Be part of the global conversation and tweet using the
-[<tt>#PostGISDay</tt>](https://twitter.com/search?q=%23PostGISDay&f=live)
-hashtag.
+Be part of the global conversation and post on your preferred social media network
+using the <tt>#PostGISDay</tt> hashtag.
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=PostGISDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #PostGISDay</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+* [Fediverse](https://mastodon.social/tags/PostGISDay)
+* [Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=postgisday&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7003381598918246400&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_content%3Bk7v4TUngTFuRefqbvi4Beg%3D%3D)
+* [TikTok](https://www.tiktok.com/tag/postgisday) has zero posts, who will be the first?
+* [X](https://twitter.com/search?q=%23PostGISDay&f=live), formerly known as Twitter
 
-## @PostGIS on Twitter
-
-<div style="width:100%;max-height:600px;overflow-y: scroll;">
-  <a 
-    class="twitter-timeline"
-    data-width="650"
-    data-dnt="true" 
-    data-theme="dark"
-    data-tweet-limit="10"
-    data-chrome="noheader nofooter noborders transparent"
-    href="https://twitter.com/postgis?ref_src=twsrc%5Etfw"
-    >
-      Tweets by postgis
-  </a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
