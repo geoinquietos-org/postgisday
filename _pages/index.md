@@ -56,4 +56,4 @@ using the <tt>#PostGISDay</tt> hashtag.
 * [Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=postgisday&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7003381598918246400&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_content%3Bk7v4TUngTFuRefqbvi4Beg%3D%3D)
 * [TikTok](https://www.tiktok.com/tag/postgisday) has zero posts, who will be the first?
 * [X](https://twitter.com/search?q=%23PostGISDay&f=live), formerly known as Twitter
-
+* [Instagram](https://www.instagram.com/explore/tags/postgisday/), last posts are from 2017.
