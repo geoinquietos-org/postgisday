@@ -6,9 +6,9 @@ permalink: /humans.txt
 /* TEAM */
 
 	Chef:Jorge Sanz
-	Contact: xurxosanz [at] gmail.com
-	Twitter: @xurxosanz
-	From: Aldaia, Valencia, Spain
+	Contact: https://jorgesanz.net/contact
+	Mastodon: @jorgesanz@mapstodon.space
+	From: Valencia, Spain
 
 
 /* THANKS */
