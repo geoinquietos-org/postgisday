@@ -5,10 +5,15 @@ permalink: /humans.txt
 
 /* TEAM */
 
-	Chef:Jorge Sanz
+	Chef: Jorge Sanz
 	Contact: https://jorgesanz.net/contact
 	Mastodon: @jorgesanz@mapstodon.space
 	From: Valencia, Spain
+    
+	Sous Chef: Jeff McKenna
+	Contact: https://gatewaygeomatics.com/contact
+	X: @mapserving
+	From: Lunenburg, Nova Scotia, Canada   
 
 
 /* THANKS */

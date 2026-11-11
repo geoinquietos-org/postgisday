@@ -4,7 +4,7 @@ services:
   jekyll:
     build:
       context: .
-    command: jekyll serve --watch --port 8080 -H 0.0.0.0 --livereload --livereload-port 35729
+    command: bundle exec jekyll serve --watch --port 8080 -H 0.0.0.0 --livereload --livereload-port 3572
     volumes:
       - .:/srv/jekyll
       - jekyll:/usr/local/bundle
