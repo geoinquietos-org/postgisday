@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-{% seo %}
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
+{% if page.url == "/" %}
+  {% seo title=false %}
+  <title>{{ site.title }}</title>
+{% else %}
+  {% seo %}
+{% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
@@ -41,6 +46,45 @@
         </div>
 
         {{ content }}
+        
+        <script>
+        (function () {
+          function getNthWeekdayOfMonth(year, month, weekday, n) {
+            // month is 0-based (10 = November)
+            // weekday: 0=Sun … 4=Thursday
+            const first = new Date(year, month, 1);
+            const firstWeekday = first.getDay();
+            let day = 1 + ((weekday - firstWeekday + 7) % 7);
+            day += (n - 1) * 7;
+            return new Date(year, month, day);
+          }
+
+          const now = new Date();
+          // Normalize to midnight for date-only comparison
+          const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+          let year = today.getFullYear();
+          let postgisDay = getNthWeekdayOfMonth(year, 10, 4, 3); // 3rd Thursday of November
+
+          let label = "This year's PostGIS Day is on";
+
+          // Switch to next year 7 days after this year's PostGIS Day
+          const switchDate = new Date(postgisDay);
+          switchDate.setDate(switchDate.getDate() + 7);
+
+          if (today >= switchDate) {
+            year += 1;
+            postgisDay = getNthWeekdayOfMonth(year, 10, 4, 3);
+            label = "Next year's PostGIS Day will be on";
+          }
+
+          const iso = postgisDay.toISOString().slice(0, 10); // YYYY-MM-DD
+          const el = document.getElementById('postgis-day-date');
+          if (el) {
+            el.textContent = ` ${label} ${iso}.`;
+          }
+        })();
+        </script>
 
       </section>
 

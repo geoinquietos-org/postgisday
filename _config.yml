@@ -5,7 +5,8 @@ url: "https://postgisday.rocks" # the base hostname & protocol for your site, e.
 # Custom variables
 description: >-
   Every year on the Thursday of the third week of November, 
-  we celebrate our favourite spatial database
+  we celebrate our favourite spatial database.
+  <span id="postgis-day-date"></span>
 
 show_downloads: false
 
