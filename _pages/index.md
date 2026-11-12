@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <div class="frontpage_logo">
-<img src="/assets/images/logo.png" alt="PostGIS Logo">
+<img src="/assets/images/postgis-rocks-logo.png" alt="PostGIS Rocks logo">
 </div>
 
 > Like [GIS Day](https://gisday.com/),
